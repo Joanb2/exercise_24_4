@@ -20,7 +20,7 @@ describe('formatDate', () => {
         });
     });
 
-    describe.only('minutes', () => {
+    describe('minutes', () => {
         it('should work for one digit minutes and seconds', () => {
             const actual = formatDate(65);
 
